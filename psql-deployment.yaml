@@ -17,11 +17,11 @@ spec:
         image: srikarthickk/react-todo-client:latest
         env:
         - name: POSTGRES_DB
-          value: todo
+          value: "todo"
         - name: POSTGRES_USER
-          value: postgres
+          value: "postgres"
         - name: POSTGRES_PASSWORD
-          value: 123123
+          value: "123123"
         ports:
         - containerPort: 5432
 

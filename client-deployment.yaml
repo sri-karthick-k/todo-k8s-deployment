@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react-client
-        image: srikarthickk/react-todo-client:latest  # Replace with your image details
+        image: srikarthickk/react-todo-client:latest
         ports:
         - containerPort: 3000
