@@ -17,4 +17,3 @@ spec:
         image: srikarthickk/react-todo-server:latest  # Replace with your image details
         ports:
         - containerPort: 4000
-

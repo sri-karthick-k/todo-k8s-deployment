@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: srikarthickk/react-todo-client:latest
+        image: srikarthickk/react-todo-db:latest
         env:
         - name: POSTGRES_DB
           value: "todo"
@@ -24,4 +24,3 @@ spec:
           value: "123123"
         ports:
         - containerPort: 5432
-
