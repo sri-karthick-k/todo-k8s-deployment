@@ -13,7 +13,7 @@ spec:
         app: node-server
     spec:
       containers:
-      - name: node-server
-        image: srikarthickk/react-todo-server:latest  # Replace with your image details
-        ports:
-        - containerPort: 4000
+        - name: node-server
+          image: srikarthickk/farmiot-server:latest # Replace with your image details
+          ports:
+            - containerPort: 4000
