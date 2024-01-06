@@ -13,14 +13,14 @@ spec:
         app: postgres
     spec:
       containers:
-      - name: postgres
-        image: srikarthickk/react-todo-db:latest
-        env:
-        - name: POSTGRES_DB
-          value: "todo"
-        - name: POSTGRES_USER
-          value: "postgres"
-        - name: POSTGRES_PASSWORD
-          value: "123123"
-        ports:
-        - containerPort: 5432
+        - name: postgres
+          image: srikarthickk/farmiot-db:latest
+          env:
+            - name: POSTGRES_DB
+              value: "farmiot"
+            - name: POSTGRES_USER
+              value: "postgres"
+            - name: POSTGRES_PASSWORD
+              value: "123123"
+          ports:
+            - containerPort: 5432
