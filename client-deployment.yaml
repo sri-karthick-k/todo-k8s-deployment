@@ -13,7 +13,7 @@ spec:
         app: react-client
     spec:
       containers:
-      - name: react-client
-        image: srikarthickk/react-todo-client:latest
-        ports:
-        - containerPort: 3000
+        - name: react-client
+          image: srikarthickk/farmiot-client:latest
+          ports:
+            - containerPort: 3000
